@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top{
+    box-shadow: 0px 2px 5px rgb(19, 62, 135, 0.5);
+    width: auto;
+    height: 60px;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+}
+
+#top h1{
+    color: rgb(19, 62, 135);
+    padding-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#pd_rf{
+    display: flex;
+}
+
+#personal_date{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 400px;
+}
+
+#personal_date h3{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#personal_date li{
+    padding-top: 8px;
+}
+
+#pd_list{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#room_form{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 400px;
+}
+
+#room_form h3{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#room_form li{
+    padding-top: 8px;
+}
+
+#rf_list{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#payment{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    width: 815px;
+}
+
+#payment h3{
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#payment_content{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+#payment_date li{
+    padding-top: 5px;
+}
+
+#payment_mtd p{
+    margin: 0;
+}
+
+#payment_mtd li{
+    padding-top: 5px;
+}
+
+#payment_mtd ul{
+    padding-left: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+#payment_mtd{
+    margin-left: 300px;
+}
+
+#confirmation{
+    margin-top: -38px;
+    margin-left: 740px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+#confirmation:hover{
+    background-color: rgb(84, 195, 255);
+}
+
+#reset{
+    margin-top: 20px;
+    margin-left: 550px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+#reset:hover{
+    background-color: rgb(255, 97, 97);
+}
