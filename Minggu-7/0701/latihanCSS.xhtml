@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title> Reservation Hotel Room </title>
+        <link rel="stylesheet" href="Style/style.css" type="text/css" media="screen"/>
+    </head>
+
+    <body>
+        <div id="top">
+            <h1> Reservation Hotel Room </h1>
+        </div>
+
+        <div id="isi">
+
+        <div id="pd_rf">
+            <div id="personal_date">
+            <form>
+                
+                <h3> Personal Date </h3>
+
+                <div id="pd_list">
+                <ol>
+                    <li><label for="nama"> Nama </label></li>
+                    <input type="text" id="nama" name="nama" size="30"/>
+                    <li><label for="gender"> Gender </label></li>
+                    <input type="text" id="gender" name="gender" size="30"/>
+                    <li> <label for="email"> Email Address </label></li>
+                    <input type="text" id="email" name="email" size="30"/>
+                    <li><label for="phone"> Telp Number </label></li>
+                    <input type="number" id="phone" name="phone" size="40"/>
+                </ol>
+                </div>
+
+            </form>
+            </div>
+
+            <div id="room_form">
+            <h3> Reservation Room Form </h3>
+                <div id="rf_list">
+                <ol>
+                    <li><label for="reservor_name"> Reservator Name </label></li>
+                    <input type="text" id="reservor_name" name="reservor_name" size="30"/>
+                    <li><label for="booking_date">Booking date</label></li>
+                    <input type="date" id="booking_date" name="booking_date" size="30"/>
+                    <li><label for="room_type"> Room Type </label>
+                    <select name="room_type">
+                        <option>Deluxe</option>
+                        <option>Standart</option>
+                        <option>Suite</option>
+                    </select></li>
+                    <li><label for="bed_type"> Bed Type </label>
+                    <select name="bed_type">
+                        <option>Single Bed</option>
+                        <option>Double Bed</option>
+                        <option>Queen Size</option>
+                        <option>King Size</option>
+                    </select></li>
+                    <li><label for="breakfast">Breakfast</label></li>
+                    <input type="radio" id="breakfast" name="breakfast"/>With Breakfast
+                    <input type="radio" id="breakfast" name="breakfast"/>Without Breakfast
+                </ol>
+                </div>
+            </div>
+        </div>
+
+        <div id="payment">
+
+                <h3>Payment</h3>
+
+                <div id="payment_content">
+                    <form>
+                    <ol>
+                        <div id="payment_date">
+                            <li><label for="check_in_date">Check in date</label></li>
+                            <input type="date" id="check_in_date" name="check_in_date" size="30"/>
+                            <li><label for="check_out_date">Check out date</label></li>
+                            <input type="date" id="check_out_date" name="check_out_date" size="30"/>
+                        </div>
+                    </ol>
+                    </form>
+
+                    <div id="payment_mtd">
+                    <form>
+                        <text>Payment Method</text>
+                        <ul>
+                            <li><input type="radio" id="payment_method" name="payment_date"/>Cash</li>
+                            <li><input type="radio" id="payment_method" name="payment_date"/>Qris</li>
+                            <li><input type="radio" id="payment_method" name="payment_date"/>Debit/Credit Card</li>
+                        </ul>
+                    </form>
+                    </div>
+                </div>
+
+            
+        </div>
+            <input type="reset" id="reset" name="reset" size="300"/> 
+            <input type="submit" id="confirmation" name="confirmation" size="300"/> 
+        </div>
+    </body>
+</html>
